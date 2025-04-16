@@ -3,7 +3,7 @@ numero = int(input("Insira um número inteiro para calcular o fatorial: "))
 
 if numero <= 0:
     print("INVALIDO")
-elif numero >= 1:
+else:
     fatorial = 1
     for i in range(1, numero + 1):
         fatorial *= i
