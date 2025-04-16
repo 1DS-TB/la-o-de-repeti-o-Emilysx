@@ -1,7 +1,7 @@
 print("Esse programa vai mostrar o fatorial do número escolhido!!")
 numero = int(input("Insira um número inteiro para calcular o fatorial: "))
 
-if numero <= 0:
+if numero < 0:
     print("INVALIDO")
 else:
     fatorial = 1
