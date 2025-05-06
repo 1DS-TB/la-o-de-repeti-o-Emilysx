@@ -11,8 +11,6 @@ else:
     else:
         print(f"Esse número é primo.")
 
-
-
 if numero < 2:
     print(f"{numero} não é um número primo.")
 else:
